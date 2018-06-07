@@ -61,5 +61,18 @@ body {
       width: auto !important; }
     .body .col-2 {
       order: 0 !important; } }
+.example-media hr {
+  margin: 2rem auto; }
+.example-media .media, .example-media .search-group {
+  display: flex;
+  max-width: 600px; }
+  .example-media .media img, .example-media .search-group img {
+    margin-right: 10px; }
+  .example-media .media .content, .example-media .search-group .content {
+    flex-grow: 1; }
+  .example-media .media input, .example-media .search-group input {
+    padding: 10px; }
+    .example-media .media input[type="text"], .example-media .search-group input[type="text"] {
+      flex-grow: 1; }
 
 /*# sourceMappingURL=three-column-layout.css.map */
